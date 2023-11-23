@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SISTEMADAL\SISTEMAVENTA.DAL.csproj" />
+    <ProjectReference Include="..\SISTEMAVENTA.UTILITY\SISTEMAVENTA.UTILITY.csproj" />
+    <ProjectReference Include="..\SITEMABLL\SITEMAVENTA.BLL.csproj" />
+  </ItemGroup>
+
 </Project>
