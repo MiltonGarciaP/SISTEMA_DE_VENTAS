@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using SISTEMAVENTA.DAL.Modelos.interfaces;
 using SISTEMAVENTA.DAL.Modelos;
+using SISTEMAVENTA.IOC;
+using SISTEMAVENTA.UTILITY;
 
 namespace SISTEMAVENTA.IOC
 {
@@ -22,6 +24,8 @@ namespace SISTEMAVENTA.IOC
          
             services.AddTransient(typeof(IGenericRepository<>),typeof(GenericRepository<>));
             services.AddScoped<IventaRepository, ventaModelo>();
+
+            services.AddAutoMapper(typeof(AutoMapperProfile));
         }
     }
 }

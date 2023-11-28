@@ -82,3 +82,5 @@ C:\Users\DELL\Desktop\PROYECTOS .NET\SISTEMA DE VENTAS\BACKEND\sistemaventas\SIS
 C:\Users\DELL\Desktop\PROYECTOS .NET\SISTEMA DE VENTAS\BACKEND\sistemaventas\SISTEMAAPI\bin\Debug\net7.0\SISTEMAVENTA.DAL.pdb
 C:\Users\DELL\Desktop\PROYECTOS .NET\SISTEMA DE VENTAS\BACKEND\sistemaventas\SISTEMAAPI\bin\Debug\net7.0\SISTEMAVENTA.MODEL.pdb
 C:\Users\DELL\Desktop\PROYECTOS .NET\SISTEMA DE VENTAS\BACKEND\sistemaventas\SISTEMAAPI\bin\Debug\net7.0\SISTEMAVENTA.UTILITY.pdb
+C:\Users\DELL\Desktop\PROYECTOS .NET\SISTEMA DE VENTAS\BACKEND\sistemaventas\SISTEMAAPI\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\DELL\Desktop\PROYECTOS .NET\SISTEMA DE VENTAS\BACKEND\sistemaventas\SISTEMAAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
