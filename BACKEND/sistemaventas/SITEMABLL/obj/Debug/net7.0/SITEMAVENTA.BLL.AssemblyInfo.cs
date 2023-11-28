@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SITEMAVENTA.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f93cbd15ee57f4d3445d3d122870c1a931751195")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SITEMAVENTA.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SITEMAVENTA.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
