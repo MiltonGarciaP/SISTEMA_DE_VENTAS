@@ -35,7 +35,7 @@ namespace SITEMAVENTA.BLL.Servicios
                 throw;
             }
         }
-        public async Task<SesionDTO>  ValidarCredenciales(string correo, string clave)
+        public async Task<SesionDTO> ValidarCredenciales(string correo, string clave)
         {
             try
             {
@@ -55,6 +55,7 @@ namespace SITEMAVENTA.BLL.Servicios
                 throw;
             }
         }
+         
         public async Task<UsuarioDTO> Crear(UsuarioDTO modelo)
         {
             try 
@@ -122,9 +123,6 @@ namespace SITEMAVENTA.BLL.Servicios
             }
         }
 
-        Task<List<SesionDTO>> IUsuarioServices.ValidarCredenciales(string correo, string clave)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

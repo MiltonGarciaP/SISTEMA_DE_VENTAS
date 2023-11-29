@@ -11,6 +11,8 @@ using SISTEMAVENTA.DAL.Modelos.interfaces;
 using SISTEMAVENTA.DAL.Modelos;
 using SISTEMAVENTA.IOC;
 using SISTEMAVENTA.UTILITY;
+using SITEMAVENTA.BLL.Servicios.Accesos;
+using SITEMAVENTA.BLL.Servicios;
 
 namespace SISTEMAVENTA.IOC
 {
@@ -26,6 +28,14 @@ namespace SISTEMAVENTA.IOC
             services.AddScoped<IventaRepository, ventaModelo>();
 
             services.AddAutoMapper(typeof(AutoMapperProfile));
+
+            services.AddScoped<IRolService, RolService>();
+            services.AddScoped<IUsuarioServices, UsuarioService>();
+            services.AddScoped<ICategoriaService,CategoriaService>();
+            services.AddScoped<IProductoService,ProductoService>();
+            services.AddScoped<IVentaService, VentaService>();
+            services.AddScoped<IDashBoardService, DashboardService>();
+            services.AddScoped<IMenuService, MenuService>();
         }
     }
 }
